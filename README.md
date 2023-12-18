@@ -38,7 +38,7 @@ a table format and a line graph.**
   the latest up-to-date instructions on this.
   
   For Both Mac and Windows: 
-    Optional: you can create a separate environment for pypolra if you regularly use anaconda and want to 
+    You can create a separate environment for pypolra if you regularly use anaconda and want to 
     keep track of the dependencies. In this case, you would use the command  
     “conda create --name pypolra”, and “conda activate pypolra”  
    
