@@ -88,7 +88,7 @@ a table format and a line graph.**
   
   python main_interval_proc.py
 
-**The data is now processed and you can navigate to the csv file created to see the data in a table format or copy and paste the link from the terminal to your browser (Should look something like http://0.0.0.0:8080/)**
+**The data is now processed and you can navigate to the csv file created (directory listed in L1filepath variable of main_interval_proc.py file) to see the data in a table format or copy and paste the link from the terminal to your browser (Should look something like http://0.0.0.0:8080/)**
 
 **For additional information about the PoLRa setup, see the user_manual.pdf file in this repository.**
 **To learn more about the sensor, visit https://terraradtech.com/technology/**
