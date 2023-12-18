@@ -7,7 +7,7 @@ a table format and a line graph.**
   2. Connect the power supply to the sensor and make the Ethernet connection between your computer and the sensor.
   3. In Terminal, type in the command “ssh pi@10.66.0.xx” (xx is located on the side of the sensor; for our sensor, the number is 11) and the password is microwave.
   4. After connecting to the sensor, type in command “polra_main_nogps” and disconnect the ethernet cable from the sensor. Now, the sensor should be collecting data.
-  5. To stop the data collection, reconnect the ethernet cable to the sensor and connect to the pi again through the Terminal. Now, type in command “polra_stop”. Then, open Filezilla Client.
+  5. To stop the data collection, reconnect the ethernet cable to the sensor and connect to the pi again through the Terminal. Now, type in command “polra_stop”. Then, open FileZilla Client.
   6. At the top of the Filezilla program, fill in “sftp://10.66.0.xx” (where xx is located on the side of the sensor) for the host section, “pi” for the username, “microwave” for the password, and “22” for the port. After filling all of this in, click Quickconnect.
   7. The data files will be saved in the directory /home/pi/data. FileZilla automatically opens the directory /home/pi also known as the “home directory”. The data is saved with the naming structure: ‘POLRA3_yyyymmdd_hhmmss.dat'
   8. Your local computer files will show on the left and the PoLRa on the right. Drag the data file (‘POLRA3_yyyymmdd_hhmmss.dat’) from the right to the left to copy to your local computer. (Note: the date and time will be inaccurate when making a non-GPS measurement; To make GPS measurements, follow the same steps above, but connect the GPS to the sensor and type in 'polra_main' instead of 'polra_main_nogps')
