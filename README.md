@@ -1,7 +1,7 @@
 # PoLRa
 **In this project, our goal is to determine the efficacy of the Portable L-band Radiometer sensor (developed by the Swiss company TerraRad Tech) in measuring 
 the soil moisture levels of different mediums. The following file describes how to take measurements with this radiometer and process the data to access the readings in both
-a csv file and dataplot site.**
+a table format and a line graph.**
 
 **Steps to start collecting data from the PoLRa sensor:**
   1. Find Resources Needed (12 V Power Supply, Ethernet Cable, USB to Ethernet Dongle, Download Filezilla Program)
