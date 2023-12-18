@@ -90,4 +90,5 @@ a table format and a line graph.**
 
 **The data is now processed and you can navigate to the csv file created to see the data in a table format or copy and paste the link from the terminal to your browser (Should look something like http://0.0.0.0:8080/)**
 
-**For additional information about the PoLRa setup, see the user_manual.pdf file in this repository. To learn more about the sensor, visit https://terraradtech.com/technology/**
+**For additional information about the PoLRa setup, see the user_manual.pdf file in this repository. 
+To learn more about the sensor, visit https://terraradtech.com/technology/**
