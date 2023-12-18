@@ -67,16 +67,20 @@ a table format and a line graph.**
    
     pip3 install netCDF4
   
-  Depending on versioning and dependencies of other packages you may get messages such as “# All requested packages already installed”. This is not an error and you can proceed to the 
+  Notes:
+  - Depending on versioning and dependencies of other packages you may get messages such as “# All requested packages already installed”. This is not an error and you can proceed to the 
   next package installation.  
-  Alternatively, the salem install can be replaced with “conda install -c oggm salem“ which may or may not work depending on versions of other packages. The above should work regardless.  
-  Some of the packages will ask you to type “yes” or “y” and hit <enter> to confirm the usage of system 
+  - Alternatively, the salem install can be replaced with “conda install -c oggm salem“ which may or may not work depending on versions of other packages. The above should work regardless.  
+  - Some of the packages will ask you to type “yes” or “y” and hit <enter> to confirm the usage of system 
   resources.  
-  Dependencies can occasionally be difficult with version updates and changes to the package managers. If you have difficulties with an import, or with installing any package, please first 
+  - Dependencies can occasionally be difficult with version updates and changes to the package managers. If you have difficulties with an import, or with installing any package, please first 
   consult google or stack overflow and second contact TerraRad for support.
 
+  
   Next, to begin processing the data, simply navigate to the main_interval_proc.py file in the ground_based folder and change the "rawappended" variable to equal a path to the local .dat file of the data 
-  collected from the PoLRa sensor. Then, change the "L1filepath" variable to equal a path to a empty csv file (this will contain the processed output of the radiometer data). Now,save the file.
+  collected from the PoLRa sensor. 
+  Then, change the "L1filepath" variable to equal a path to a empty csv file (this will contain the processed output of the radiometer data). 
+  Now, save the file.
 
   Finally, open up a new terminal and type in the following commands.
 
