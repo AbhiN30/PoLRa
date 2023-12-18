@@ -78,7 +78,7 @@ a table format and a line graph.**
   Next, to begin processing the data, simply navigate to the main_interval_proc.py file in the ground_based folder and change the "rawappended" variable to equal a path to the local .dat file of the data 
   collected from the PoLRa sensor. 
   Then, change the "L1filepath" variable to equal a path to a empty csv file (this will contain the processed output of the radiometer data). 
-  Now, save the file.
+  Now, save the main_interval_proc.py file.
 
   Finally, open up a new terminal and type in the following commands.
 
