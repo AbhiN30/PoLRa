@@ -4,14 +4,15 @@ the soil moisture levels of different mediums. The following file describes how 
 a table format and a line graph.**
 
 **Steps to start collecting data from the PoLRa sensor:**
-  1. Find Resources Needed (12 V Power Supply, Ethernet Cable, USB to Ethernet Dongle, Download Filezilla Program)
-  2. In Mac Terminal, activate pypolra conda environment.
-  3. Type in the command “ssh pi@10.66.0.xx” (xx is located on the side of the sensor) and the password is microwave.
-  4. After connecting to the sensor, type in command “polra_main_nogps”. Now, the sensor should be collecting data.
-  5. To stop the data collection, type in command “polra_stop”. Then, open Filezilla Client.
-  6. At the top of the Filezilla program, fill in “sftp://10.66.0.xx” (where xx is located on the side of the sensor) for the host section, “pi” for the username, “microwave” for the password, and “22” for the port. After filling all of this in, click Quickconnect.
-  7. The data files will be saved in the directory /home/pi/data. FileZilla automatically opens the directory /home/pi also known as the “home directory”. The data is saved with the naming structure: ‘POLRA3_yyyymmdd_hhmmss.dat’
-  8. Your local computer files will show on the left and the PoLRa on the right. Drag the data file (‘POLRA3_yyyymmdd_hhmmss.dat’) from the right to the left to copy to your local computer.
+  1. Find Resources Needed (12 V Power Supply, Ethernet Cable, USB to Ethernet Dongle, Download Filezilla Program). Also, you will need to create a static IP Address on your PC for the next steps (see the bottom of page 4 of the user_manual.pdf file in this repo)
+  2. Connect the power supply to the sensor and make the Ethernet connection between your computer and the sensor.
+  3. In Mac Terminal, activate pypolra conda environment.
+  4. Type in the command “ssh pi@10.66.0.xx” (xx is located on the side of the sensor) and the password is microwave.
+  5. After connecting to the sensor, type in command “polra_main_nogps” and disconnect the ethernet cable from the sensor. Now, the sensor should be collecting data.
+  6. To stop the data collection, reconnect the ethernet cable and connect to the pi again. Now, type in command “polra_stop”. Then, open Filezilla Client.
+  7. At the top of the Filezilla program, fill in “sftp://10.66.0.xx” (where xx is located on the side of the sensor) for the host section, “pi” for the username, “microwave” for the password, and “22” for the port. After filling all of this in, click Quickconnect.
+  8. The data files will be saved in the directory /home/pi/data. FileZilla automatically opens the directory /home/pi also known as the “home directory”. The data is saved with the naming structure: ‘POLRA3_yyyymmdd_hhmmss.dat’
+  9. Your local computer files will show on the left and the PoLRa on the right. Drag the data file (‘POLRA3_yyyymmdd_hhmmss.dat’) from the right to the left to copy to your local computer.
 
 **Steps to process the data from the PoLRa sensor:**
 
