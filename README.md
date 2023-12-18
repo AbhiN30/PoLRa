@@ -83,7 +83,9 @@ a table format and a line graph.**
   Finally, open up a new terminal and type in the following commands.
 
   cd (insert directory for ground-based folder)
+  
   conda activate pypolra
+  
   python main_interval_proc.py
 
 **The data is now processed and you can navigate to the csv file created to see the data in a table format or copy and paste the link from the terminal to your browser (Should look something like http://0.0.0.0:8080/)**
