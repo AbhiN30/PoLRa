@@ -6,7 +6,7 @@ a table format and a line graph.**
   1. Find Resources Needed (12 V Power Supply, Ethernet Cable, USB to Ethernet Dongle (If needed for your computer), Download Filezilla Program). Also, you will need to create a static IP Address on your PC for the next steps (see the bottom of page 4 of the user_manual.pdf file in this repo)
   2. Connect the power supply to the sensor and make the Ethernet connection between your computer and the sensor.
   3. In Mac Terminal, activate pypolra conda environment.
-  4. Type in the command “ssh pi@10.66.0.xx” (xx is located on the side of the sensor) and the password is microwave.
+  4. Type in the command “ssh pi@10.66.0.xx” (xx is located on the side of the sensor; for our sensor, the number is 11) and the password is microwave.
   5. After connecting to the sensor, type in command “polra_main_nogps” and disconnect the ethernet cable from the sensor. Now, the sensor should be collecting data.
   6. To stop the data collection, reconnect the ethernet cable and connect to the pi again. Now, type in command “polra_stop”. Then, open Filezilla Client.
   7. At the top of the Filezilla program, fill in “sftp://10.66.0.xx” (where xx is located on the side of the sensor) for the host section, “pi” for the username, “microwave” for the password, and “22” for the port. After filling all of this in, click Quickconnect.
