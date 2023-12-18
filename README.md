@@ -3,7 +3,7 @@
 a table format and a line graph.**
 
 **Steps to start collecting data from the PoLRa sensor:**
-  1. Find Resources Needed (12 V Power Supply, Ethernet Cable, USB to Ethernet Dongle, Download Filezilla Program). Also, you will need to create a static IP Address on your PC for the next steps (see the bottom of page 4 of the user_manual.pdf file in this repo)
+  1. Find Resources Needed (12 V Power Supply, Ethernet Cable, USB to Ethernet Dongle (If needed for your computer), Download Filezilla Program). Also, you will need to create a static IP Address on your PC for the next steps (see the bottom of page 4 of the user_manual.pdf file in this repo)
   2. Connect the power supply to the sensor and make the Ethernet connection between your computer and the sensor.
   3. In Mac Terminal, activate pypolra conda environment.
   4. Type in the command “ssh pi@10.66.0.xx” (xx is located on the side of the sensor) and the password is microwave.
